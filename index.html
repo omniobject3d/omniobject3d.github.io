@@ -109,7 +109,7 @@
                 <style type="text/css">
                     .tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;}
                     .tg td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
-                      font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+                      font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:3px 3px;word-break:normal;}
                     .tg th{background-color:#f0f0f0;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
                       font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
                     .tg .tg-baqh{text-align:center;vertical-align:top}
@@ -118,13 +118,13 @@
                     </style>
                     <table class="tg" style="undefined;table-layout: fixed; width: 582px; margin-left:auto;margin-right:auto;">
                     <colgroup>
-                    <col style="width: 120px">
-                    <col style="width: 75px">
-                    <col style="width: 75px">
-                    <col style="width: 75px">
                     <col style="width: 90px">
-                    <col style="width: 90px">
-                    <col style="width: 90px">
+                    <col style="width: 50px">
+                    <col style="width: 50px">
+                    <col style="width: 50px">
+                    <col style="width: 70px">
+                    <col style="width: 70px">
+                    <col style="width: 70px">
                     </colgroup>
                     <thead>
                       <tr>
@@ -242,7 +242,7 @@
             </div>
 
             <p class="paragraph-3 nerf_text", style="text-align:center">
-              Table 1. A comparison between OmniObject3D and other commonly-used 3D object datasets.
+              Table 1. A comparison between OmniObject3D and other commonly-used 3D object datasets. Omniobject3D is the largest among all the real-world scanned object datasets.
             </p>
 
             <div class="columns-5 w-row">
@@ -410,7 +410,23 @@
         </div>
     <!-- </div> -->
 
-
+    <p class="paragraph-3 nerf_text">
+      We show examples of cross-scene NVS by <a href="https://alexyu.net/pixelnerf/">pixelNeRF</a>, <a href="https://apchenstu.github.io/mvsnerf/">MVSNeRF</a>, and <a href="https://ibrnet.github.io/">IBRNet</a> (ft denotes fine-tuned).
+    </p>
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <!-- <h3>Novel View Appearance & Label Synthesis</h3> -->
+        <hr style="margin-top:0px">
+        <video width="100%" playsinline="" autoplay="autoplay" loop="loop" preload="" muted="">
+          <source src="video/sparse_NeRF.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </div>
+</section>
+<br>
         <!-- <p class="paragraph-3 nerf_text">
             Neural Rendering TODO
         </p> -->
@@ -887,8 +903,10 @@
         <hr>
         <div class="bibtexsection">
             @article{wu2023omniobject3d,
-              author = {Tong Wu, Jiarui Zhang, Xiao Fu, Yuxin WANG, Jiawei Ren, Liang Pan, Wayne Wu, Lei Yang, Jiaqi Wang, Chen Qian, Dahua Lin, Ziwei Liu},
-              title = {OmniObject3D: Large-Vocabulary 3D Object Dataset for Realistic Perception, Reconstruction and Generation},
+              author = {Tong Wu, Jiarui Zhang, Xiao Fu, Yuxin WANG, Jiawei Ren, 
+              Liang Pan, Wayne Wu, Lei Yang, Jiaqi Wang, Chen Qian, Dahua Lin, Ziwei Liu},
+              title = {OmniObject3D: Large-Vocabulary 3D Object Dataset for Realistic Perception, 
+                Reconstruction and Generation},
               journal={arXiv preprint arXiv:xxxx},
               year={2023}
             }
